@@ -1,0 +1,384 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+.navbar {
+  padding: .4rem 1rem;
+}
+
+.navbar-collapse {
+  color: #8795a1;
+}
+
+.navbar-collapse a:hover {
+  color: #fb3 !important;
+}
+
+.slider-img {
+  height: 100vh;
+  max-height: 650px;
+}
+
+.nav-link {
+  color: #8795a1 !important;
+}
+
+.nav-item {
+   line-height: 36px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.navbar::after {
+  background-image: linear-gradient(90deg, #fb3, #00b78b, #fb3);
+  height: 4px;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  content: "";
+  top: 100%;
+}
+
+.carousel-caption {
+  left: 25%;
+  right: 25%;
+}
+
+.arrow-down {
+  color: white;
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+.arrow-down:active {
+  opacity: 0.5;
+}
+
+.brand-header-icon {
+  color: #fb3;
+}
+
+.brand-icon {
+  margin-left: auto;
+  margin-right: auto;
+  color: #fb3;
+  width: 10rem;
+  border: 2px solid #fb3;
+  padding: 0.5rem 0.8rem;
+  border-radius: 5px;
+}
+
+@media (max-width: 480px) {
+  .carousel-caption {
+    bottom: 0%;
+  }
+  .carousel-caption h1 {
+    font-size: 1.25rem;
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+  .carousel-inner img {
+    height: 350px;
+  }
+  .carousel-caption p {
+    display: none;
+  }
+  .arrow-down {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .form2 .form2-field {
+    width: 280px !important;
+  }
+  .btn2-inside {
+    margin-left: 0 !important;
+    margin-top: 5px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .carousel-caption h1 {
+    font-size: 1.5rem;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+  .carousel-caption p {
+    display: none;
+  }
+  .carousel-caption {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .arrow-down {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 810px) and (max-width: 813px) {
+  .carousel-caption h1 {
+    font-size: 1.5rem;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+  .carousel-caption p {
+    display: none;
+  }
+  .carousel-caption {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .arrow-down {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .tab {
+    height: 70px !important;
+  }
+}
+
+.orange-line {
+  width: 70px; 
+  height: 2px; 
+  background-color: #fb3; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.fixed-bg {
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: 560px;
+  padding: 20px 0;
+  border-bottom: 1px solid #e7e7e7;
+  border-top: 1px solid #e7e7e7;
+}
+
+.projectImg {
+  border-radius: 9px;
+  box-shadow: 1px 1px 11px #330033;
+}
+.btn {
+  padding: 10px;
+}
+
+.tab {
+  width: 112px;
+  height: 112px;
+  margin: 0.1rem;
+  font-weight: bold;
+  border-radius: 0.3rem;
+}
+
+.activeTab,
+.tab:hover {
+  background-color: #fb3 !important;
+}
+
+@media screen and (max-width: 992px) {
+  .brand-bar {
+    text-align: center;
+  }
+}
+
+#section2,
+#section3,
+#sectionImg2,
+#sectionImg3 {
+  display: none;
+}
+
+.card-body {
+  text-align: center;
+}
+.card-img, .card-img-top {
+  height: 13rem;
+}
+
+#project200 {
+  display: none;
+}
+
+#project300 {
+  display: none;
+}
+
+.prising-group {
+  margin-top: 3rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.pricing {
+  width: 15rem;
+  height: 459px;
+  background-color: #333333;
+  margin-bottom: 2rem;
+}
+
+.pricing-popular {
+  width: 15rem;
+  height: 494px;
+  background-color: #333333;
+  margin-bottom: 2rem;
+}
+
+.pricing-line-top {
+  height: 1px;
+  width: 15rem;
+  background-color: rgba(124, 124, 124, 0.603);
+}
+
+.pricing-line-down {
+  height: 4px;
+  width: 15rem;
+  background-color: #fb3;
+}
+
+.pricing-line-down-popular {
+  height: 39px;
+  width: 15rem;
+  color: #ffffff;
+  background-color: #fb3;
+  text-transform: uppercase;
+}
+
+.pricing-list {
+  width: 15rem;
+  background-color: #ffffff;
+}
+
+.coments {
+  width: 270px;
+  height: 125px;
+  padding: 5px 10px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.coments-arrow {
+  background-color: #f5f5f5;
+  width: 20px;
+  height: 20px;
+  margin-left: 25px;
+  margin-top: -10px;
+  transform: rotate(45deg);
+}
+
+.coments-photo {
+  width: 270px;
+  display: flex;
+  margin-top: 10px;
+}
+
+.custom-bg {
+  background-position: center center;
+  height: 324px;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.8);
+  position: relative;
+}
+
+.custom-bg:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+}
+
+.custom-bg-content {
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn2 {
+  display: inline-block;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  border: 0;
+  outline: 0;
+  padding: 0;
+  transition: all 200ms ease-in;
+  cursor: pointer;
+}
+
+.btn2-primary {
+  background: #7f8ff4;
+  color: #fff;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 10px 12px;
+}
+
+.btn2-inside {
+  margin-left: -96px;
+}
+
+.form2 .form2-field {
+  width: 360px;
+  background: #fff;
+  color: #a3a3a3;
+  font: inherit;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+  border: 2px solid #7f8ff4;
+  border-radius: 2px;
+  padding: 1rem 0.8rem;
+}
+
+footer {
+  padding: 1.5rem 0;
+  width: 100%;
+  position: relative;
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+}
+
+footer::before {
+  background-image: linear-gradient(90deg, #fb3, #00b78b, #fb3);
+  height: 4px;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  content: "";
+  top: 0;
+}
+
+.li-projects::before {
+  content: "\2022";
+  color: #fb3;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+}
